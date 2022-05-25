@@ -27,10 +27,12 @@ body {
 
 .black {
     padding: 10px;
-    padding-top: 20px;
     text-align: center;
     border-radius: 0px;
-    box-shadow: 0 0 10px 2px
+    box-shadow: 0 0 10px 2px;
+    width: 90vw;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.685);
 }
 
 .answer {
@@ -40,13 +42,16 @@ body {
 }
 
 .btn {
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 5px 10px;
     font-size: 30px;
+ 
     background-color: #d6ec5a88;
     outline: none;
     color: rgb(255, 255, 255);
-    text-decoration: none
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .black h1 {
@@ -56,10 +61,4 @@ body {
 .black h2 {
     font-size: 22px;
     color: rgb(255, 255, 255)
-}
-
-.container {
-    background-color: rgba(0, 0, 0, 0.589);
-    width: 70vw;
-    height: 30vh;
 }
