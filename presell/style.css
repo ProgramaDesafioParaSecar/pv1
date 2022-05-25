@@ -20,12 +20,12 @@ body {
     width: 100vw;
     height: 100vh;
     background: url(natural.jpg) no-repeat fixed center;
-    background-size: cover
+    background-size: cover;
+    background-blend-mode: darken;
 }
 
 
 .black {
-    background-color: rgba(83, 85, 83, 0.336);
     padding: 10px;
     text-align: center;
     border-radius: 0px;
@@ -42,17 +42,23 @@ body {
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 30px;
-    background-color: #c7ff6c;
+    background-color: #d6ec5a88;
     outline: none;
-    color: #000;
+    color: rgb(255, 255, 255);
     text-decoration: none
 }
 
 .black h1 {
-    color: rgb(0, 0, 0)
+    color: rgb(207, 253, 2)
 }
 
-.black p {
-    font-size: 18px;
-    color: #fff
+.black h2 {
+    font-size: 22px;
+    color: rgb(255, 255, 255)
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.308);
+    width: 40vw;
+    height: 30vh;
 }
